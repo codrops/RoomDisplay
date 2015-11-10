@@ -144,12 +144,12 @@
 	transition: opacity 0.3s;
 }
 
-.nav__item--current::after {
-	opacity: 1;
-}
-
 .nav__item:hover::after {
 	opacity: 0.2;
+}
+
+.nav__item.nav__item--current::after {
+	opacity: 1;
 }
 
 .text-hidden {
